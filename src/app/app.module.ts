@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -8,6 +9,7 @@ import { LoginPageComponent } from './pages/acount/login-page/login-page.compone
 import { PetsPageComponent } from './pages/acount/pets-page/pets-page.component';
 import { ResetPasswordPageComponent } from './pages/acount/reset-password-page/reset-password-page.component';
 import { SignUpPageComponent } from './pages/acount/sign-up-page/sign-up-page.component';
+import { FramePageComponent } from './pages/master/frame.page.component';
 import { CartPageComponent } from './pages/store/cart-page/cart-page.component';
 import { ProductsPageComponent } from './pages/store/products-page/products-page.component';
 
@@ -20,7 +22,8 @@ import { ProductsPageComponent } from './pages/store/products-page/products-page
     SignUpPageComponent,
     PetsPageComponent,
     ProductsPageComponent,
-    CartPageComponent
+    CartPageComponent,
+    FramePageComponent
   ],
   imports: [
     BrowserModule,
